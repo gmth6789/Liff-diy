@@ -52,7 +52,7 @@
         rel="noreferrer"
         class="home__buttons__button button--secondary"
       >
-        LINE Developers Console
+       สมัครสมาชิก
       </a>
     </div> </div>
   </div>
