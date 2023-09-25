@@ -1,4 +1,13 @@
 <template>
+  <div>
+    <v-app-bar
+      color="primary"
+      dense
+      flat
+      dark
+    >
+      <v-toolbar-title>สมัครสมาชิก</v-toolbar-title>
+    </v-app-bar>
   <div class="home">
     <h1 class="home__title">
       Welcome to <br /><a
@@ -45,7 +54,7 @@
       >
         LINE Developers Console
       </a>
-    </div>
+    </div> </div>
   </div>
 </template>
 
