@@ -47,7 +47,7 @@
         LIFF Playground
       </a>
       <a
-        href="https://developers.line.biz/console/"
+        
         target="_blank"
         rel="noreferrer"
         class="home__buttons__button button--secondary"
