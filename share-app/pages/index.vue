@@ -45,7 +45,7 @@
         class="home__buttons__button button--tertiary"
       >
         LIFF Playground
-      </a>
+      </a><NuxtLink to="/register">
       <a
         
         target="_blank"
@@ -53,7 +53,7 @@
         class="home__buttons__button button--secondary"
       >
        สมัครสมาชิก
-      </a>
+      </a></NuxtLink>
     </div> </div>
   </div>
 </template>
