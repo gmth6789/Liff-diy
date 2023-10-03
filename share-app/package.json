@@ -16,9 +16,13 @@
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10",
-    "vuetify": "^2.6.10"
+    "vuetify": "^2.6.10",
+    "vant": "^2.4.0"
   },
   "devDependencies": {
-    "@nuxtjs/vuetify": "^1.12.3"
+    "@nuxtjs/vuetify": "^1.12.3",
+    "babel-plugin-import": "^1.13.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0"
   }
 }
