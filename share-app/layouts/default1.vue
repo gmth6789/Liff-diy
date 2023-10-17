@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <nuxt></nuxt>
-    <Tabbar />
+    <Tabbar1 />
     <Dialog/>
   
   </v-app>
@@ -9,12 +9,12 @@
 
 <script>
 import Dialog from '~/components/Dialog'
-import Tabbar from '~/components/Tabbar'
+import Tabbar1 from '~/components/Tabbar1'
 
 export default {
   components: {
     Dialog,
-    Tabbar
+    Tabbar1
   }
 }
 </script>
