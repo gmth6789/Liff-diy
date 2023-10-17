@@ -6,7 +6,7 @@
       flat
       dark
     >
-      <v-toolbar-title>สมัครสมาชิก</v-toolbar-title>
+      <v-toolbar-title>Home</v-toolbar-title>
     </v-app-bar>
   <div class="home">
     <h1 class="home__title">
