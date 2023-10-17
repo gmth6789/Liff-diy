@@ -1,18 +1,22 @@
 <template>
   <v-app>
     <nuxt></nuxt>
+    <Tabbar />
     <Dialog/>
+  
   </v-app>
 </template>
 
 <script>
 import Dialog from '~/components/Dialog'
+import Tabbar from '~/components/Tabbar'
 
 
 
 export default {
   components: {
-    Dialog
+    Dialog,
+    Tabbar
   }
 }
 </script>
