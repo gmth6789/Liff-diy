@@ -1,6 +1,7 @@
 <template>
   <v-app>
     <nuxt></nuxt>
+    <Tabbar />
     <Dialog/>
   </v-app>
 </template>
