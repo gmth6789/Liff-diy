@@ -16,10 +16,18 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '~/assets/favicon.ico' }
+    ],
+    script: [
+      { src: 'https://static.line-scdn.net/liff/edge/2.1/sdk.js' }
     ]
   },
-
-  // Global CSS: https://go.nuxtjs.dev/config-css
+  /*
+  ** Customize the progress-bar color
+  */
+  loading: { color: '#fff' },
+  /*
+  ** Global CSS
+  */
   css: [
   ],
 
