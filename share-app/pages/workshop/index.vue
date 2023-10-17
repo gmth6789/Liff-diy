@@ -17,7 +17,8 @@
             :key="item.id"
             :active="selectedWorkshop.includes(item.id)"
             v-on:moreDetail="moreDetail(item)"
-            v-on:chooseWorkshop="chooseWorkshop(item)" />          
+            v-on:chooseWorkshop="chooseWorkshop(item)" 
+            />          
         </v-col>
         <v-col cols="12">
           <div class="set-padding">
