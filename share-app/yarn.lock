@@ -1794,7 +1794,7 @@
 
 "@line/liff@^2.22.4":
   version "2.22.4"
-  resolved "https://registry.npmjs.org/@line/liff/-/liff-2.22.4.tgz"
+  resolved "https://registry.yarnpkg.com/@line/liff/-/liff-2.22.4.tgz#3b4a983adc35c4ab19594850f55f6066b2251752"
   integrity sha512-Tj69fVn/NQDhyY6O7I+18VG3y25ZJ+QqNFoMv4PENwLguTw0c4UANc9bLEA3DPgdS+kt66gj6FZ68MANkZKhTg==
   dependencies:
     "@liff/analytics" "2.22.4"
