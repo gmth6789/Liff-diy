@@ -1794,7 +1794,7 @@
 
 "@line/liff@^2.22.4":
   version "2.22.4"
-  resolved "https://registry.yarnpkg.com/@line/liff/-/liff-2.22.4.tgz#3b4a983adc35c4ab19594850f55f6066b2251752"
+  resolved "https://registry.npmjs.org/@line/liff/-/liff-2.22.4.tgz"
   integrity sha512-Tj69fVn/NQDhyY6O7I+18VG3y25ZJ+QqNFoMv4PENwLguTw0c4UANc9bLEA3DPgdS+kt66gj6FZ68MANkZKhTg==
   dependencies:
     "@liff/analytics" "2.22.4"
@@ -7980,6 +7980,13 @@ sass-loader@^10.2.0:
     schema-utils "^3.0.0"
     semver "^7.3.2"
 
+sass-loader@^13.3.2:
+  version "13.3.2"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-13.3.2.tgz#460022de27aec772480f03de17f5ba88fa7e18c6"
+  integrity sha512-CQbKl57kdEv+KDLquhC+gE3pXt74LEAzm+tzywcA0/aHZuub8wTErbjAoNI57rPUWRYRNC5WUnNl8eGJNbDdwg==
+  dependencies:
+    neo-async "^2.6.2"
+
 sass@~1.32.13:
   version "1.32.13"
   resolved "https://registry.npmjs.org/sass/-/sass-1.32.13.tgz"
@@ -9021,6 +9028,18 @@ vue-client-only@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/vue-client-only/-/vue-client-only-2.1.0.tgz"
   integrity sha512-vKl1skEKn8EK9f8P2ZzhRnuaRHLHrlt1sbRmazlvsx6EiC3A8oWF8YCBrMJzoN+W3OnElwIGbVjsx6/xelY1AA==
+
+vue-flex@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.npmjs.org/vue-flex/-/vue-flex-2.1.2.tgz"
+  integrity sha512-tQ6FqQbZpa/IB+kw9Pez2TIPJzMt9ujdMiBWlav5wflRriPHB8vkHfeiZyh12Ukg6O+cRj8rFheODIRtqb7rQw==
+  dependencies:
+    vue-functional-data-merge "^2.0.7"
+
+vue-functional-data-merge@^2.0.7:
+  version "2.0.7"
+  resolved "https://registry.npmjs.org/vue-functional-data-merge/-/vue-functional-data-merge-2.0.7.tgz"
+  integrity sha512-pvLc+H+x2prwBj/uSEIITyxjz/7ZUVVK8uYbrYMmhDvMXnzh9OvQvVEwcOSBQjsubd4Eq41/CSJaWzy4hemMNQ==
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
