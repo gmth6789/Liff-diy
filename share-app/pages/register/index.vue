@@ -84,7 +84,7 @@ export default {
   },  
   methods: {    
     isDone(){
-      this.$axios.get(`https://auth-gmth-default-rtdb.asia-southeast1.firebasedatabase.app/members/${this.$store.getters.getLine.userId}/profile.json`).then((res) => {
+      this.$axios.get(`https://liffcard-default-rtdb.asia-southeast1.firebasedatabase.app/members/${this.$store.getters.getLine.userId}/profile.json`).then((res) => {
         if(res.data != null){
           this.$router.push('register/done');
         }

@@ -101,7 +101,7 @@ export default {
     next() {
       if(this.index == this.workshops.length -1){
         // api save register workshop 
-        this.$axios.pacth(`https://auth-gmth-default-rtdb.asia-southeast1.firebasedatabase.app/workshops/${this.$store.getters.getLine.userId}.json`, { ...this.selectedWorkshop }).then((res) => {
+        this.$axios.pacth(`https://liffcard-default-rtdb.asia-southeast1.firebasedatabase.app/workshops/${this.$store.getters.getLine.userId}.json`, { ...this.selectedWorkshop }).then((res) => {
           this.$router.push('/workshop/done')
         }).catch(e => console.log(e)) 
       }else{
